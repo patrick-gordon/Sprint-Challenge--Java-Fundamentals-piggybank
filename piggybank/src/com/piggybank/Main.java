@@ -18,11 +18,11 @@ public class Main {
         piggyBankList.add(new Dollar());
         piggyBankList.add(new Dime());
 
-        for ( i = 0; i < piggyBankList.size(); i++){
+        for ( int i = 0; i < piggyBankList.size(); i++){
             System.out.println(piggyBankList.get(i).toString());
         }
 
-        for ( i = 0; i < piggyBankList.size(); i++){
+        for ( int i = 0; i < piggyBankList.size(); i++){
             balance += piggyBankList.get(i).getBalance();
         }
 

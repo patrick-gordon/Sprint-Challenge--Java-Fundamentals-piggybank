@@ -31,4 +31,10 @@ public abstract class Money {
     {
         return value * amount;
     }
+
+    @Override
+    public String toString()
+    {
+        return amount + " " + name;
+    }
 }
